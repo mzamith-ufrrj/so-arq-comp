@@ -26,7 +26,7 @@ projeto/
 ├── fontes.arquitetura-computadores: Fontes para a disciplina de Arquitetura de Computadores
 │   
 │   
-└── fontes.so: Fontes para a disciplina de Sistemas Operacionais
+└── fontes.sistemas-operacionais: Fontes para a disciplina de Sistemas Operacionais
 
 ```
 
