@@ -1,0 +1,11 @@
+# Executáveis
+*.exec
+
+# Arquivos objeto
+*.o
+
+# Bibliotecas compartilhadas
+*.so
+
+# Arquivos Java
+*.jar
