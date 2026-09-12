@@ -1,3 +1,11 @@
+/*
+ * Apresenta a criação de um processo filho por meio de fork(). O processo
+ * original exibe seu identificador e, após a criação, pai e filho seguem
+ * caminhos distintos conforme o retorno dessa chamada. As mensagens mostram
+ * os identificadores dos processos e a relação de parentesco entre eles,
+ * utilizando getpid() e getppid().
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -24,6 +32,8 @@ int main (int ac, char**av){
         printf("\tSou o pai. Meu PID = %d\n", getpid());
         printf("\tPID do meu filho = %d\n", pid);
     }
+
+    
 
     return EXIT_SUCCESS;
 }

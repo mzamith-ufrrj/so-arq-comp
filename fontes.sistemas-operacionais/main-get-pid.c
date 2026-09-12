@@ -1,3 +1,11 @@
+/*
+ * Explora a identificação e a criação repetida de processos. Inicialmente,
+ * exibe o PID do processo em execução e o PID de seu pai. Em seguida, cada
+ * processo permanece em um laço que aguarda um segundo, mostra seu próprio
+ * identificador e chama fork(), fazendo com que os novos processos também
+ * participem das próximas iterações.
+ */
+
 #include <stdio.h>
 #include <sys/types.h>
 #include <unistd.h>

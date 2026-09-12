@@ -1,3 +1,12 @@
+/*
+ * Implementa um terminal simples que lê comandos e argumentos, cria um
+ * processo filho com fork() e solicita a execução do comando com execvp().
+ * O processo pai aguarda o filho antes de receber o próximo comando.
+ * Ao receber SAIR, o terminal apresenta informações sobre seu próprio
+ * processo obtidas em /proc, incluindo estado, escalonamento, limites,
+ * entrada e saída, mapa de memória e descritores de arquivos abertos.
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdio.h>
